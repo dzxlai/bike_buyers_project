@@ -40,7 +40,7 @@ Inspecting through the table, I am starting out by making sure to look at the nu
 I want to ensure that I understand the dataset I am working so that I am able to make informed decisions about the next steps to take.
 <br/>
 
-I am now able to make a list of the things I am eager to have a look at for my data cleansing process:
+I am now able to make a list of the things I am eager to have a look at for my data cleansing process or 'hot' areas in which I think common issues may arise:
 - missing/NULL values
 - duplicate values
 - formatting standardisation, we want entries to be all the same/similar format
@@ -54,6 +54,18 @@ I am now able to make a list of the things I am eager to have a look at for my d
 
 Removing missing values is crucial for ensuring data accuracy, integrity, and consistency. Clean data helps to prevent bias or inconsistent analysis. Clean data without missing values to better decision-making by providing reliable insights.
 
+Within Excel, I am able to use the Filter tool. The filter tool allows me to quickly filter on the relevant data in my table, i.e. the columns/features.
+
+![filter_tool](https://github.com/user-attachments/assets/854adc7c-d322-4eb5-9849-edad04f549c3)
+
+I am able to look within column data, and the values contained within each row of each column. Values such as, text values, numerical data, dates etc.
+
+This is a super useful tool when it comes to cleaning data. Not only am I able to spot missing data within the columns and thus the dataset, I would also be able to look for <b>spelling errors</b> as well as <b>standardisation errors</b>.
+
+Fortunately making my job a slighlty quicker/easier, after investigating each column and each of the unique values within the rows of each column, I was happy to see that there were no missing values!
+Missing values will normally be easy to spot as they would show as <b>'NULL'</b> or <b>'(Blanks)'</b>.
+
+I also noticed that the dataset seemed very clean in the spelling errors department as well, as I was not able to spot any, allowing me to move on to the next step of my data cleansing process.
 
 
 
