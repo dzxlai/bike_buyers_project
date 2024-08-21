@@ -21,6 +21,11 @@ In this project, I will analyse the data by exploring through the dataset and it
 
 <h2>Data Cleansing</h2>
 
+In this section, we focus on data cleansing. A crucial process in ensuring the quality and reliability of our dataset. By addressing issues such as missing values, duplicate entries, and inconsistencies. Proper data cleansing lays the foundation for generating meaningful insights and making informed decisions based on clean, reliable data.
+
+![bike_buyers_dataset_original_csv_to_excel](https://github.com/user-attachments/assets/2656df00-98f1-492b-8f57-78dce2350d54)
+![bike_buyers_original_row_count](https://github.com/user-attachments/assets/8bc86c1d-7941-4246-9720-38055376b159)
+
 After uploading the <b>bike_buyers.csv</b> dataset into excel, the first step I took was to create a new sheet. I called this the 'working_sheet'.
 
 ![bike_buyers_working_sheet](https://github.com/user-attachments/assets/d789067f-e949-42a5-a567-d06b74e8bbdb)
@@ -31,18 +36,40 @@ The reason I thought it was important to do this was so that I would have an are
 The original dataset is preserved in the case of needing to go back to it, a 'back-up'.
 
 
+Inspecting through the table, I am starting out by making sure to look at the number of rows and columns(features) I have. <br/>
+I want to ensure that I understand the dataset I am working so that I am able to make informed decisions about the next steps to take.
+<br/>
 
-
-
-
-
+I am now able to make a list of the things I am eager to have a look at for my data cleansing process:
+- missing/NULL values
+- duplicate values
 - formatting standardisation, we want entries to be all the same/similar format
 - spelling errors
 - whitespaces
 - currencies
 - dates
+<br/>
 
 <b>Missing/NULL data</b>
+
+Removing missing values is crucial for ensuring data accuracy, integrity, and consistency. Clean data helps to prevent bias or inconsistent analysis. Clean data without missing values to better decision-making by providing reliable insights.
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 <b>Removing Duplicates</b>
 
