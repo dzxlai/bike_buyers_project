@@ -68,23 +68,29 @@ Missing values will normally be easy to spot as they would show as <b>'NULL'</b>
 
 I also noticed that the dataset seemed very clean in the spelling errors department as well, as I was not able to spot any, allowing me to move on to the next step of my data cleansing process.
 
-
-
-
-
-
-
-
-
-
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 
 <b>Removing Duplicates</b>
+
+
+
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 <h2>Program walk-through:</h2>
 
