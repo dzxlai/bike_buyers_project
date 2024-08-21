@@ -34,10 +34,11 @@ As the sheet describes, it will act a new sheet for which I copied all the origi
 
 The reason I thought it was important to do this was so that I would have an area on which I could manipulate and transform the dataset freely, without having to worry about errors/mistakes, avoiding losing vital/valuable rows of information/data.
 The original dataset is preserved in the case of needing to go back to it, a 'back-up'.
-
+<br/>
 
 Inspecting through the table, I am starting out by making sure to look at the number of rows and columns(features) I have. <br/>
-I want to ensure that I understand the dataset I am working so that I am able to make informed decisions about the next steps to take.
+- I want to ensure that I understand the dataset I am working so that I am able to make informed decisions about the next steps to take.<br/>
+- I am also looking out for features to consider as potential categorical features which I can maybe use to compare different groups against, or depict patterns/trends within certain areas.
 <br/>
 
 I am now able to make a list of the things I am eager to have a look at for my data cleansing process or 'hot' areas in which I think common issues may arise:
