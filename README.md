@@ -21,6 +21,21 @@ In this project, I will analyse the data by exploring through the dataset and it
 
 <h2>Data Cleansing</h2>
 
+After uploading the <b>bike_buyers.csv</b> dataset into excel, the first step I took was to create a new sheet. I called this the 'working_sheet'.
+
+![bike_buyers_working_sheet](https://github.com/user-attachments/assets/d789067f-e949-42a5-a567-d06b74e8bbdb)
+
+As the sheet describes, it will act a new sheet for which I copied all the original and raw data from the bike_buyers table, into the new sheet to conduct work for data cleansing and exploratory data analysis.
+
+The reason I thought it was important to do this was so that I would have an area on which I could manipulate and transform the dataset freely, without having to worry about errors/mistakes, avoiding losing vital/valuable rows of information/data.
+The original dataset is preserved in the case of needing to go back to it, a 'back-up'.
+
+
+
+
+
+
+
 - formatting standardisation, we want entries to be all the same/similar format
 - spelling errors
 - whitespaces
