@@ -203,7 +203,6 @@ Firstly, I created a new column for the 'Age Groups'.
 
 Then be able to map these brackets out, I used a neat trick using Excel formulas, in the form of nested IF statements.
 
-
 ![bike_buyers_age_groups_2](https://github.com/user-attachments/assets/8201f1c1-ca0c-42c9-a890-1fc09708945d)
 
 
@@ -211,6 +210,14 @@ Then be able to map these brackets out, I used a neat trick using Excel formulas
 
 
 
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
