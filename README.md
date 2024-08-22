@@ -175,9 +175,16 @@ Lastly before our dataset is ready and complete, Lloking for features to group/c
 Being able to group similar data points in features allows you to erxplore and reveal hidden trends and guide more targeted analysis ultimately leading to better-informed decisions.
 
 When considering this dataset, 3 particular groups came to mind:
-- gender group
-- groups clustered by income
-- groups clustered by age
+- Gender group
+  - For the gender no work is required here as the are already natrually distincting grouped apart, these being by <b>Male</b> and <b>Female</b>.
+- Income group
+  - For the income group, I will look at the averages later, so there is also no need to form any new groups here. 
+- Age group
+  - For the age group, natually as the dataset comes, each entry/row data pointmhas their owen personal specific age associated to that person.
+<br/>
+
+By grouping age groups together we can simplify analysis and gain insights more easily. It allows for the identification of trends/patterns and behaviours within  demographic groupings, making it easier to compare data. Additionally grouping also helps manage variability by reducing the number of unique values, especially in large datasets.
+
 
 
 <br/>
