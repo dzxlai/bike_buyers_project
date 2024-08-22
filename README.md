@@ -25,6 +25,7 @@ In this section, we focus on data cleansing. A crucial process in ensuring the q
 
 ![bike_buyers_dataset_original_csv_to_excel](https://github.com/user-attachments/assets/2656df00-98f1-492b-8f57-78dce2350d54)
 ![bike_buyers_original_row_count](https://github.com/user-attachments/assets/8bc86c1d-7941-4246-9720-38055376b159)
+(1026 rows, excluding the columns/feature headers)
 
 After uploading the <b>bike_buyers.csv</b> dataset into excel, the first step I took was to create a new sheet. I called this the 'working_sheet'.
 
@@ -73,7 +74,21 @@ I also noticed that the dataset seemed very clean in the spelling errors departm
 
 <b>Removing Duplicates</b>
 
+For the next step of my data cleansing steps, it was important for me to check the dataset for duplicates, with values and rows. Likewise with the necessity of removing missing data, removing duplicate data is just as essential for maintaining data accuracy and consistency. Duplicated data can distort analysis results, leading to biased or misleading insights. They can in some cases inflate dataset size unnecessarily, which can lead to increasing storage costs and processing time. 
+Expelling duplicates will ensure that each data point/row is unique, thus improving the reliability and accuracy with our actionable insights.
 
+Within Excel again, I am able to utilise a built-in tool to help me with this, 'Remove Duplicates'. This tool lets me remove duplicated rows within a column(/feature) or a set of columns.
+
+![bike_buyers_remove_duplicates_1](https://github.com/user-attachments/assets/5b2b8367-20ec-460c-9dfe-92f2bdcb970a) 
+<br/>
+Notice, when applying the tool to a range with multiple columns, the tool will remove the entire row of the duplcated value.
+
+![bike_buyers_removing_duplicates_2](https://github.com/user-attachments/assets/8a82d0f8-8d98-464b-b8df-7a80b4ad7325)
+<br/>
+Applying the 'Remove Duplicates' tool has allowed me to pinpoint and remove 26 duplicated values.
+As a result, we are left with 1000 unique values.
+
+<br/>
 
 
 
