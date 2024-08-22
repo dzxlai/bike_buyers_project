@@ -6,9 +6,9 @@
 
 <h2> Description </h2>
 An Exploratory Data Analysis (EDA) on 'Bike Buyers' dataset using MS Excel. 
-'Bike Buyers' dataset contrains 1000 entries of customers from different backgrounds, and whether they <b>did</b> or <b>or did not</b> purchase a bike.
+'Bike Buyers' dataset contains 1000 entries of customers from different backgrounds, and whether they <b>did</b> or <b>or did not</b> purchase a bike.
 
-In this project, I will analyse the data by exploring through the dataset and its features, creating tables to help summarise and access quick information/highlights, then create insightful data visualisaions in the form of graphs and dashboards, which will help me to identify patterns and trends.
+In this project, I will analyse the data by exploring through the dataset and its features, creating tables to help summarise and access quick information/highlights, then create insightful data visualisations in the form of graphs and dashboards, which will help me to identify patterns and trends.
 <br />
 
 <h2>Languages/Tools and Skills Used</h2>
@@ -64,7 +64,7 @@ I am able to look within column data, and the values contained within each row o
 
 This is a super useful tool when it comes to cleaning data. Not only am I able to spot missing data within the columns and thus the dataset, I would also be able to look for <b>spelling errors</b> as well as <b>standardisation errors</b>.
 
-Fortunately making my job a slighlty quicker/easier, after investigating each column and each of the unique values within the rows of each column, I was happy to see that there were no missing values!
+Fortunately making my job a slightly quicker/easier, after investigating each column and each of the unique values within the rows of each column, I was happy to see that there were no missing values!
 Missing values will normally be easy to spot as they would show as <b>'NULL'</b> or <b>'(Blanks)'</b>.
 
 I also noticed that the dataset seemed very clean in the spelling errors department as well, as I was not able to spot any, allowing me to move on to the next step of my data cleansing process.
@@ -81,7 +81,7 @@ Within Excel again, I am able to utilise a built-in tool to help me with this, '
 
 ![bike_buyers_remove_duplicates_1](https://github.com/user-attachments/assets/5b2b8367-20ec-460c-9dfe-92f2bdcb970a) 
 <br/>
-Notice, when applying the tool to a range with multiple columns, the tool will remove the entire row of the duplcated value.
+Notice, when applying the tool to a range with multiple columns, the tool will remove the entire row of the duplicated value.
 
 ![bike_buyers_removing_duplicates_2](https://github.com/user-attachments/assets/8a82d0f8-8d98-464b-b8df-7a80b4ad7325)
 <br/>
@@ -170,12 +170,12 @@ This has helped me to quickly resolve the issue, the values now read in order of
 <br/>
 
 <h3>Grouping/Clustering</h3>
-Lastly before our dataset is ready and complete, Lloking for features to group/cluster during exploratory data analysis helps to uncover patterns, relationships, and underlying structures within the data. 
-Being able to group similar data points in features allows you to erxplore and reveal hidden trends and guide more targeted analysis ultimately leading to better-informed decisions.
+Lastly before our dataset is ready and complete, looking for features to group/cluster during exploratory data analysis helps to uncover patterns, relationships, and underlying structures within the data. 
+Being able to group similar data points in features allows you to explore and reveal hidden trends and guide more targeted analysis ultimately leading to better-informed decisions.
 
 When considering this dataset, 3 particular groups came to mind:
 - Gender group
-  - For the gender no work is required here as the are already natrually distincting grouped apart, these being by <b>Male</b> and <b>Female</b>.
+  - For the gender no work is required here as the are already naturally distincting grouped apart, these being by <b>Male</b> and <b>Female</b>.
 - Income group
   - For the income group, I will look at the averages later, so there is also no need to form any new groups here. 
 - Age group
@@ -187,12 +187,12 @@ By grouping age groups together we can simplify analysis and gain insights more 
 The first thing I wanted to check was the youngest entry, and the oldest entry.
 In order to do this, I highlights the 'Age' column, and used Excel mathematical formulas to figure this out:
 - Using the =MIN() formula to identify to smallest numercial value within the 'Age' column, i.e. the youngest person.
-- Converstly using the =MAX() formula I can identify to largest numercial value within the 'Age' column, i.e. the oldest person.
+- Conversely using the =MAX() formula I can identify to largest numercial value within the 'Age' column, i.e. the oldest person.
 
 As a result I identified the youngest age to be 25, and the oldest to be 89.
 Knowing this allows me to carefully dispict and disect my age groups/brackets.
 
-For my age brackets, I decided to split the data into 3 groups: Adolescent, Middle Age, Old (baring in mind I wanted to name this alphabetically, so that Excel maintains the order in correspondecne to the age group values.
+For my age brackets, I decided to split the data into 3 groups: Adolescent, Middle Age, Old (bearing in mind I wanted to name this alphabetically, so that Excel maintains the order in correspondecne to the age group values.
 - Adolescent, x < 31, i.e. ages 0-30
 - Middle Age, 31 =< x =< 54, i.e. ages 31-54
 - Old, x > 54, i.e. ages 55+
