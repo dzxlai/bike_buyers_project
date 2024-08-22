@@ -70,7 +70,7 @@ Missing values will normally be easy to spot as they would show as <b>'NULL'</b>
 I also noticed that the dataset seemed very clean in the spelling errors department as well, as I was not able to spot any, allowing me to move on to the next step of my data cleansing process.
 
 <br/>
-
+<br/>
 
 <h3>Removing Duplicates</h3>
 
@@ -89,7 +89,7 @@ Applying the 'Remove Duplicates' tool has allowed me to pinpoint and remove 26 d
 As a result, we are left with 1000 unique values.
 
 <br/>
-
+<br/>
 
 <h3>Data value manipulation, using 'Find & Replace'</h3>
 
@@ -116,14 +116,68 @@ Here I have successfully changed both columns feature values to their newly assi
 
 ![bike_buyers_maritalstatus_gender_4](https://github.com/user-attachments/assets/0126b5c7-efc6-453e-b256-4b5c69866dd3)
 
-
+<br/>
+<br/>
 
 <h3>Data Standardsation</h3>
 
+Data standardisation can be important for ensuring consistency,accuracy, and reliability across datasets. 
+One common feature that needs checking frequently will be able column with a numerical or date value, as these two features tend to most likely have the possibility of different curriences or formats, etc.
 
+In the dataset our bike_buyers dataset, we have income column, filled with numerical values of the incomes of our 1000 entries. At a glance, I notice there is not much wrong with this column at all, it seems clean, and clear, and using the filter tool, I am able to confirm this.
 
+![bike_buyers_income_1](https://github.com/user-attachments/assets/99350d10-3ac4-4fb0-bda3-995540e17146)![bike_buyers_income_2](https://github.com/user-attachments/assets/4251e130-2ad0-42ad-96c7-db867e4c8c63)
 
+- One thing I did note however was the data type that this column was presented to me. I recieved the column data type as a 'general' form, when in this case as an income, it would be much more appropriate for us to have this changed into a currency format.
+- I also decided to remove the decimal places in order to simplify the presentation of financial data. Removing decimal places also allows for consistency with our numerical data. This is especially useful for when we later wish to represent the data visually, using graphs and plots.
 
+<br/>
+<br/>
+<br/>
+
+Continuing through the column features, I am continuing to look through for any errors or formats than need to be changed.
+The next column I notice that may cause issues later, is within the commute distances.
+
+In this column, we have values:
+- 0-1 Miles
+- 1-2 Miles
+- 2-5 MIles
+- 5-10 Miles
+- 10+ Miles
+
+Reading through these, none of the unique value pose problem in how they are appear. However there is one crucial issue with this, in which I later faced when it came to my data visualisation plots.
+
+Excel will count and arrange these data values by taking the 1st characater and then sort into ascending order.
+
+![commute_distance_issue](https://github.com/user-attachments/assets/a6de9b27-3280-45fe-bd15-78b0ebe7dd98)
+
+Here we can see that Excel has valued, 10+ Miles <b>below</b> 2-5 Miles, as 1<2. This causes a real problem for us as it skews the result of our plot.
+
+To tackle this issue, we can once again use the <b>Find & Replace</b> tool.
+
+As this is an issue with the order Excel reads in the data, naturally i believed in order to fix this issue, I would need to change all the '10+ Miles' values to something that would exceed numerical data, i.e. text values.
+
+![commute_distance_issue_1](https://github.com/user-attachments/assets/19cd94f7-f10d-48e8-939a-2f438d5a9cfa)
+
+I decided to replace these values with 'Over 10 Miles'
+
+![commute_distance_issue_2](https://github.com/user-attachments/assets/3890db76-dab0-4e32-af6d-757346569dd2)
+
+Here, we can see 113 replacements were made, and the values wthin the column were successfully replaced.
+This has helped me to quickly resolve the issue, the values now read in order of their respective distances as you will see later when we approach the next sections.
+
+<br/>
+<br/>
+
+<h3>Grouping/Clustering</h3>
+
+Lastly before our dataset is ready and complete, Lloking for features to group/cluster during exploratory data analysis helps to uncover patterns, relationships, and underlying structures within the data. 
+Being able to group similar data points in features allows you to erxplore and reveal hidden trends and guide more targeted analysis ultimately leading to better-informed decisions.
+
+When considering this dataset, 3 particular groups came to mind:
+- gender group
+- groups clustered by income
+- groups clustered by age
 
 
 <br/>
