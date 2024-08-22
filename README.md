@@ -170,7 +170,6 @@ This has helped me to quickly resolve the issue, the values now read in order of
 <br/>
 
 <h3>Grouping/Clustering</h3>
-
 Lastly before our dataset is ready and complete, Lloking for features to group/cluster during exploratory data analysis helps to uncover patterns, relationships, and underlying structures within the data. 
 Being able to group similar data points in features allows you to erxplore and reveal hidden trends and guide more targeted analysis ultimately leading to better-informed decisions.
 
@@ -184,6 +183,31 @@ When considering this dataset, 3 particular groups came to mind:
 <br/>
 
 By grouping age groups together we can simplify analysis and gain insights more easily. It allows for the identification of trends/patterns and behaviours within  demographic groupings, making it easier to compare data. Additionally grouping also helps manage variability by reducing the number of unique values, especially in large datasets.
+
+The first thing I wanted to check was the youngest entry, and the oldest entry.
+In order to do this, I highlights the 'Age' column, and used Excel mathematical formulas to figure this out:
+- Using the =MIN() formula to identify to smallest numercial value within the 'Age' column, i.e. the youngest person.
+- Converstly using the =MAX() formula I can identify to largest numercial value within the 'Age' column, i.e. the oldest person.
+
+As a result I identified the youngest age to be 25, and the oldest to be 89.
+Knowing this allows me to carefully dispict and disect my age groups/brackets.
+
+For my age brackets, I decided to split the data into 3 groups: Adolescent, Middle Age, Old (baring in mind I wanted to name this alphabetically, so that Excel maintains the order in correspondecne to the age group values.
+- Adolescent, x < 31, i.e. ages 0-30
+- Middle Age, 31 =< x =< 54, i.e. ages 31-54
+- Old, x > 54, i.e. ages 55+
+
+Firstly, I created a new column for the 'Age Groups'.
+
+![bike_buyers_age_groups_1](https://github.com/user-attachments/assets/fdb6cf95-0993-4813-beeb-a3f520bed5fa)
+
+Then be able to map these brackets out, I used a neat trick using Excel formulas, in the form of nested IF statements.
+
+
+![bike_buyers_age_groups_2](https://github.com/user-attachments/assets/8201f1c1-ca0c-42c9-a890-1fc09708945d)
+
+
+
 
 
 
