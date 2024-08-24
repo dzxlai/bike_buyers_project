@@ -9,6 +9,7 @@ An Exploratory Data Analysis (EDA) on 'Bike Buyers' dataset using MS Excel.
 'Bike Buyers' dataset contains 1000 entries of customers from different backgrounds, and whether they <b>did</b> or <b>or did not</b> purchase a bike.
 
 In this project, I will analyse the data by exploring through the dataset and its features, creating tables to help summarise and access quick information/highlights, then create insightful data visualisations in the form of graphs and dashboards, which will help me to identify patterns and trends.
+
 <br />
 <br />
 
@@ -16,6 +17,7 @@ In this project, I will analyse the data by exploring through the dataset and it
 
 - MS Excel 
 - Data Cleansing (missing values, removing duplicates, find & replace), Data Standardisation, Data Filtering, Pivot Tables, Data Visualisation (Charts + Dashboard)
+
 <br />
 <br />
 
@@ -31,16 +33,13 @@ After uploading the <b>bike_buyers.csv</b> dataset into excel, the first step I 
 
 ![bike_buyers_working_sheet](https://github.com/user-attachments/assets/d789067f-e949-42a5-a567-d06b74e8bbdb)
 
-The reason I thought it was important to do this was so that I would have an area on which I could manipulate and transform the dataset freely, without having to worry about errors/mistakes, avoiding losing vital/valuable rows of information/data.
-The original dataset is preserved in the case of needing to go back to it, a 'back-up'.
+I created a separate area for manipulating and transforming the dataset to avoid errors and protect valuable data. The original dataset is preserved as a backup for reference if needed.
 <br/>
 
-Inspecting through the table, I am starting out by making sure to look at the number of rows and columns(features) I have. <br/>
-- I want to ensure that I understand the dataset I am working so that I am able to make informed decisions about the next steps to take.<br/>
-- I am also looking out for features to consider as potential categorical features which I can maybe use to compare different groups against, or depict patterns/trends within certain areas.
+To start, I’m reviewing the number of rows and columns in the table to understand the dataset thoroughly. This helps me make informed decisions about the next steps. I’m also identifying potential categorical features for comparing groups and detecting patterns or trends.
 <br/>
 
-I am now able to make a list of the things I am eager to have a look at for my data cleansing process or 'hot' areas in which I think common issues may arise:
+I compiled a list of key areas to focus on during the data cleansing process, highlighting potential common issues.
 - missing/NULL values
 - duplicate values
 - formatting standardisation, we want entries to be all the same/similar format
