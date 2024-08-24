@@ -10,12 +10,14 @@ An Exploratory Data Analysis (EDA) on 'Bike Buyers' dataset using MS Excel.
 
 In this project, I will analyse the data by exploring through the dataset and its features, creating tables to help summarise and access quick information/highlights, then create insightful data visualisations in the form of graphs and dashboards, which will help me to identify patterns and trends.
 <br />
+<br />
 
 <h2>Languages/Tools and Skills Used</h2>
 
 - MS Excel 
 - Data Cleansing (missing values, removing duplicates, find & replace), Data Standardisation, Data Filtering, Pivot Tables, Data Visualisation (Charts + Dashboard)
 
+<br />
 <br />
 
 
@@ -203,10 +205,25 @@ Firstly, I created a new column for the 'Age Groups'.
 
 Then to be able to map these brackets out, I used a neat trick using Excel formulas, in the form of nested IF statements.
 
-Here, we have 3 conditions to depict what 'age' corresponds to what 'age group'. This nested IF statement.
+Here, we have 3 conditions to depict what 'age' corresponds to what 'age group'. The nested IF statement will first check if the value (age) meets a certain criteria, first checking if the age is greater than 54. If this is 'TRUE', then we return the value specified, here being 'Old'.
+If the value does not meet the criteria, the IF statement will fall to the specified step we set for when this is 'FALSE', here we have set 
+the 'value_if_false' to be <b>another</b> IF statement, thus creating this nested IF path. This will check the value for the criteria of 'Middle Age', and if 'TRUE', then returning the appropriate age group, and if 'FALSE' falling to a final IF statement.
 
 ![bike_buyers_age_groups_2](https://github.com/user-attachments/assets/8201f1c1-ca0c-42c9-a890-1fc09708945d)
 
+As a result, we are easily able to generate this new column, where the specific age's of each person have been categorized into 3 separate groups.
+
+<br/>
+
+After thoroughly cleaning and formatting the dataset, all duplicates, and errors have been addressed. The data is now standardized, complete, and well-structured, ensuring accuracy and reliability for subsequent analysis. 
+<br/>
+With a clean and properly formatted dataset, I am now ready to proceed to the next phase of the project, where I will be creating and analysing pivot tables to extract meaningful insights.
+
+<br/>
+<br/>
+<br/>
+
+<h2>Pivot Tables</h2>
 
 
 
@@ -216,67 +233,32 @@ Here, we have 3 conditions to depict what 'age' corresponds to what 'age group'.
 
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-<h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
 
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
