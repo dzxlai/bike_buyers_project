@@ -202,7 +202,7 @@ With a clean and properly formatted dataset, I am now ready to proceed to the ne
 <br/>
 <br/>
 
-<h2>Pivot Tables</h2>
+<h2>Pivot Tables and Data Visualisations</h2>
 
 
 
