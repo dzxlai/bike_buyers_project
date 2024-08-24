@@ -20,7 +20,6 @@ In this project, I will analyse the data by exploring through the dataset and it
 <br />
 <br />
 
-
 <h2>Data Cleansing</h2>
 
 In this section, we focus on data cleansing. A crucial process in ensuring the quality and reliability of our dataset. By addressing issues such as missing values, duplicate entries, and inconsistencies. Proper data cleansing lays the foundation for generating meaningful insights and making informed decisions based on clean, reliable data.
@@ -133,29 +132,17 @@ In the dataset our bike_buyers dataset, we have income column, filled with numer
 
 <br/>
 <br/>
-<br/>
 
 Continuing through the column features, I am continuing to look through for any errors or formats than need to be changed.
 The next column I notice that may cause issues later, is within the commute distances.
 
-In this column, we have values:
-- 0-1 Miles
-- 1-2 Miles
-- 2-5 MIles
-- 5-10 Miles
-- 10+ Miles
+In this column, we have values: [0-1 Miles], [1-2 Miles], [2-5 Miles], [5-10 Miles], [10+ Miles]; While the unique values initially seemed fine, I encountered a crucial issue later during data visualization.
 
-Reading through these, none of the unique value pose problem in how they are appear. However there is one crucial issue with this, in which I later faced when it came to my data visualisation plots.
-
-Excel will count and arrange these data values by taking the 1st characater and then sort into ascending order.
+Excel sorts data based on the first character, which caused '10+ Miles' to be placed below '2-5 Miles' due to the 1 < 2 sorting logic. This issue skewed our plot results.
 
 ![commute_distance_issue](https://github.com/user-attachments/assets/a6de9b27-3280-45fe-bd15-78b0ebe7dd98)
 
-Here we can see that Excel has valued, 10+ Miles <b>below</b> 2-5 Miles, as 1<2. This causes a real problem for us as it skews the result of our plot.
-
-To tackle this issue, we can once again use the <b>Find & Replace</b> tool.
-
-As this is an issue with the order Excel reads in the data, naturally i believed in order to fix this issue, I would need to change all the '10+ Miles' values to something that would exceed numerical data, i.e. text values.
+To fix this, I used the Find & Replace tool to change '10+ Miles' to a text value that Excel would correctly order above the numerical data.
 
 ![commute_distance_issue_1](https://github.com/user-attachments/assets/19cd94f7-f10d-48e8-939a-2f438d5a9cfa)
 
@@ -215,7 +202,6 @@ After thoroughly cleaning and formatting the dataset, all duplicates, and errors
 <br/>
 With a clean and properly formatted dataset, I am now ready to proceed to the next phase of the project, where I will be creating and analysing pivot tables to extract meaningful insights.
 
-<br/>
 <br/>
 <br/>
 
