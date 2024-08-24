@@ -1,5 +1,4 @@
- 
-![Screenshot at Aug 20 17-10-42](https://github.com/user-attachments/assets/29fdc54d-b57d-4422-a9f8-f26571133436)
+<img width="1212" alt="Screenshot at Aug 24 17-57-31" src="https://github.com/user-attachments/assets/e61145f4-694f-43e9-82e0-31bdceb48a24">
 
 
 <h1> bike_buyers_project </h1>
