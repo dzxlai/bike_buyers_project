@@ -16,7 +16,6 @@ In this project, I will analyse the data by exploring through the dataset and it
 
 - MS Excel 
 - Data Cleansing (missing values, removing duplicates, find & replace), Data Standardisation, Data Filtering, Pivot Tables, Data Visualisation (Charts + Dashboard)
-
 <br />
 <br />
 
