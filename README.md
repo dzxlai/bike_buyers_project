@@ -33,8 +33,6 @@ After uploading the <b>bike_buyers.csv</b> dataset into excel, the first step I 
 
 ![bike_buyers_working_sheet](https://github.com/user-attachments/assets/d789067f-e949-42a5-a567-d06b74e8bbdb)
 
-As the sheet describes, it will act a new sheet for which I copied all the original and raw data from the bike_buyers table, into the new sheet to conduct work for data cleansing and exploratory data analysis.
-
 The reason I thought it was important to do this was so that I would have an area on which I could manipulate and transform the dataset freely, without having to worry about errors/mistakes, avoiding losing vital/valuable rows of information/data.
 The original dataset is preserved in the case of needing to go back to it, a 'back-up'.
 <br/>
@@ -64,9 +62,9 @@ Within Excel, I am able to use the Filter tool. The filter tool allows me to qui
 
 I am able to look within column data, and the values contained within each row of each column. Values such as, text values, numerical data, dates etc.
 
-This is a super useful tool when it comes to cleaning data. Not only am I able to spot missing data within the columns and thus the dataset, I would also be able to look for <b>spelling errors</b> as well as <b>standardisation errors</b>.
+A useful tool when it comes to cleaning data. Not only am I able to spot missing data within the columns and thus the dataset, I would also be able to look for <b>spelling errors</b> as well as <b>standardisation errors</b>.
 
-Fortunately making my job a slightly quicker/easier, after investigating each column and each of the unique values within the rows of each column, I was happy to see that there were no missing values!
+After investigating each column and each of the unique values within the rows of each column, I was happy to see that there were no missing values!
 Missing values will normally be easy to spot as they would show as <b>'NULL'</b> or <b>'(Blanks)'</b>.
 
 I also noticed that the dataset seemed very clean in the spelling errors department as well, as I was not able to spot any, allowing me to move on to the next step of my data cleansing process.
@@ -130,7 +128,7 @@ In the dataset our bike_buyers dataset, we have income column, filled with numer
 
 ![bike_buyers_income_1](https://github.com/user-attachments/assets/99350d10-3ac4-4fb0-bda3-995540e17146)![bike_buyers_income_2](https://github.com/user-attachments/assets/4251e130-2ad0-42ad-96c7-db867e4c8c63)
 
-- One thing I did note however was the data type that this column was presented to me. I recieved the column data type as a 'general' form, when in this case as an income, it would be much more appropriate for us to have this changed into a currency format.
+- I noticed that the column was initially formatted as 'General', when in this case as an income, it would be much more appropriate for us to have this changed into a currency format.
 - I also decided to remove the decimal places in order to simplify the presentation of financial data. Removing decimal places also allows for consistency with our numerical data. This is especially useful for when we later wish to represent the data visually, using graphs and plots.
 
 <br/>
@@ -205,9 +203,7 @@ Firstly, I created a new column for the 'Age Groups'.
 
 Then to be able to map these brackets out, I used a neat trick using Excel formulas, in the form of nested IF statements.
 
-Here, we have 3 conditions to depict what 'age' corresponds to what 'age group'. The nested IF statement will first check if the value (age) meets a certain criteria, first checking if the age is greater than 54. If this is 'TRUE', then we return the value specified, here being 'Old'.
-If the value does not meet the criteria, the IF statement will fall to the specified step we set for when this is 'FALSE', here we have set 
-the 'value_if_false' to be <b>another</b> IF statement, thus creating this nested IF path. This will check the value for the criteria of 'Middle Age', and if 'TRUE', then returning the appropriate age group, and if 'FALSE' falling to a final IF statement.
+We have three conditions to determine the appropriate 'age group' based on 'age.' The nested IF statement first checks if the age is greater than 54; if 'TRUE,' it returns 'Old.' If 'FALSE,' the statement moves to the next condition, checking if the age qualifies as 'Middle Age.' If this condition is also 'FALSE,' it falls to the final IF statement to determine the remaining age group."
 
 ![bike_buyers_age_groups_2](https://github.com/user-attachments/assets/8201f1c1-ca0c-42c9-a890-1fc09708945d)
 
