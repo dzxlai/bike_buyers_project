@@ -204,13 +204,30 @@ With a clean and properly formatted dataset, I am now ready to proceed to the ne
 
 <h2>Pivot Tables and Data Visualisations</h2>
 
+In this step, I am going to create a few PivotTables to use with the dataset. PivotTables are a powerful tool for summarising, organising and analysting datasets. They allow for categorisation and comparisons of different data groups, enabling me to delve into potential patterens and trends.</br>
+By organising and narrowing the data into smaller groups, I can focus of specfic demographics and extract insights by comparing them.
+Here, I have also paired the PivotTables with visulisations, offering a clear and concise way to glance and compare these different demographics. 
+
+</br>
+
+<b>Average Income of Bike Buyers, by Gender Groups</b>
+
 ![avg_income_of_bike_buyers](https://github.com/user-attachments/assets/e5cdd9a1-8af6-411d-acc1-3f68078d8e8e)
+
+In this first PivotTable, I am looking at the average incomes of the people who <b>did buy</b> a bike VS those who <b>did not buy</b> a bike. I have also taken this one step further by splitting these groups into separate gender groups to also explore whether male or female groups had more general interests in bike buying.
+
+Glancing at the PivotTable and chart we can notice a quick few useful insights into the data. The first thing I saw was that there is noticeable difference in income between those who bought a bike and those who didn't. In this case, both males and females who purchased bikes had higher average incomes than those who did not. Due to the pattern correlating in both gender groups, from this we are able to estimate that in the grand scheme, gender group does not play an important role, however, income does. 
+
+
+
+
+</br>
 
 ![bike_purchased__by_age_groups](https://github.com/user-attachments/assets/c850f87f-8eda-49a8-966e-07f8196398de)
 
+</br>
+
 ![bike_purchased_by_commute_distance](https://github.com/user-attachments/assets/6afd765b-41c4-4fe5-a584-a100c6d6ea9d)
-
-
 
 <br/>
 <br/>
