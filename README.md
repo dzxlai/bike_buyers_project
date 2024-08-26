@@ -226,6 +226,10 @@ Overall, this data suggests that income plays a crucial role in bike purchases, 
 
 ![bike_purchased__by_age_groups](https://github.com/user-attachments/assets/c850f87f-8eda-49a8-966e-07f8196398de)
 
+In this second PivotTable, I am looking at the different age groups within the dataset. Age is an interesting factor, and I wanted to see whether it played a crucial role in whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
+
+Just looking at the chart, it is immediately clear that people who fall into the middle age group are the most likely to buy a bike.
+
 </br>
 
 ![bike_purchased_by_commute_distance](https://github.com/user-attachments/assets/6afd765b-41c4-4fe5-a584-a100c6d6ea9d)
