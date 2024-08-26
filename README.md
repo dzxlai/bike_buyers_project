@@ -204,13 +204,26 @@ With a clean and properly formatted dataset, I am now ready to proceed to the ne
 
 <h2>Pivot Tables and Data Visualisations</h2>
 
+![avg_income_of_bike_buyers](https://github.com/user-attachments/assets/e5cdd9a1-8af6-411d-acc1-3f68078d8e8e)
+
+![bike_purchased__by_age_groups](https://github.com/user-attachments/assets/c850f87f-8eda-49a8-966e-07f8196398de)
+
+![bike_purchased_by_commute_distance](https://github.com/user-attachments/assets/6afd765b-41c4-4fe5-a584-a100c6d6ea9d)
 
 
 
+<br/>
+<br/>
 
+<h2>Dashboard</h2>
 
+now we have information on these people
+we can filter and narrow down by certain demographics
+and all charts adjust accordingly together
 
+using the data visualisations to allow with the slicing allows fitler narrow down demogprahics, identify key information at a glance
 
+![bike_sales_dashboard](https://github.com/user-attachments/assets/eaafb888-9c32-4fac-aec3-355ec9b29fe6)
 
 
 
