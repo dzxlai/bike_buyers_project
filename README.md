@@ -236,7 +236,7 @@ Adolescents and older adults show a significantly lower bike purchase rate, impl
 
 ![bike_purchased_by_commute_distance](https://github.com/user-attachments/assets/6afd765b-41c4-4fe5-a584-a100c6d6ea9d)
 
-In this final PivotTable, I am lokoking at potentially the most interesting factor, the commute distance of each person, and how that can play a role to whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
+In this final PivotTable, I am looking at potentially the most interesting factor, the commute distance of each person, and how that can play a role to whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
 
 <br/>
 <br/>
