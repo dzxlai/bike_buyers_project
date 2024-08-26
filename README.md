@@ -220,7 +220,7 @@ Glancing at the PivotTable and chart we can notice a quick few useful insights i
 
 If we compare the genders directly, males generally have higher average incomes than females, in both the <b>buyer</b> and <b>non-buyer</b> categories. This could show a potential link between income levels and bike buying decisions, with income being a more significant factor for males. In the male group, the gap in average income is significantly more pronounced between those who <b>did buy</b> a bike VS those who <b>did not buy</b> a bike, than compared to the gap with the female groups.</br>
 
-Overall, this data suggests that income plays a crucial role in bike purchases, with higher-income individuals, particuarly males, being more likely to buy bikes. Insights liek these can inform decisions on targeting the right audiences effectively.
+Overall, this data suggests that income plays a crucial role in bike purchases, with higher-income individuals, particuarly males, being more likely to buy bikes. Insights like these can inform decisions on targeting the right audiences effectively.
 
 </br>
 
@@ -228,11 +228,15 @@ Overall, this data suggests that income plays a crucial role in bike purchases, 
 
 In this second PivotTable, I am looking at the different age groups within the dataset. Age is an interesting factor, and I wanted to see whether it played a crucial role in whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
 
-Just looking at the chart, it is immediately clear that people who fall into the middle age group are the most likely to buy a bike.
+Just looking at the chart, it is immediately clear that people who fall into the middle age group are the most likely to buy a bike, making them the most significant and effective marketing target for bike sales.
+
+Adolescents and older adults show a significantly lower bike purchase rate, implying both groups may be less interested in what a bike offeres, or have different means of getting by, for example, walking or driving. Here there could be an opportunity to look into why both these groups have such low purchase rates, and hypothesise potential strategies to address these groups' needs and increase their purchase rates.
 
 </br>
 
 ![bike_purchased_by_commute_distance](https://github.com/user-attachments/assets/6afd765b-41c4-4fe5-a584-a100c6d6ea9d)
+
+In this final PivotTable, I am lokoking at potentially the most interesting factor, the commute distance of each person, and how that can play a role to whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
 
 <br/>
 <br/>
