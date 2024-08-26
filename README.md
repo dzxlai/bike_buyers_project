@@ -243,6 +243,8 @@ In this final PivotTable, I am looking at potentially the most interesting facto
 
 <h2>Dashboard</h2>
 
+dashboard with intercative slicers
+
 now we have information on these people
 we can filter and narrow down by certain demographics
 and all charts adjust accordingly together
