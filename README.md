@@ -236,7 +236,13 @@ Adolescents and older adults show a significantly lower bike purchase rate, impl
 
 ![bike_purchased_by_commute_distance](https://github.com/user-attachments/assets/6afd765b-41c4-4fe5-a584-a100c6d6ea9d)
 
-In this final PivotTable, I am looking at potentially the most interesting factor, the commute distance of each person, and how that can play a role to whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
+In this final PivotTable, I am looking at the commute distance of each person, and how that can play a role to whether an individual <b>does buy</b> or <b>doesn't buy</b> a bike.</br>
+
+Using data visualisation in the form of a line chart we can see there is a very clear negative correlation. The analysis has revealed that the likelihood of purchasing a bike is highest among the people who have very short commutes. This could suggest that individuals with shorter distances may find cylcing preferbale due to convenience and practicality.
+
+As commute distances increase, there is a noticeable decline in bike purchases, suggesting that longer commutes may deter people from choosing a bike as their primary mode of transportation. Additionally, those with longer commutes may not even have the option to cycle due to the greater distances, where a car, bus, or train becomes a more practical choice
+
+Ultimately, these insights suggest that distance is a significant factor in the decision to purchase a bike, with individuals who have shorter commutes being the clear target audience for marketing.
 
 <br/>
 <br/>
