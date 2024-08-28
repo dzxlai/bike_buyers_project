@@ -255,5 +255,7 @@ Along with my dashboard, I fitted the plots with interactive slicers. Slicers pr
 
 Using other features from our dataset, such as marital status, education, and region, I am able to play around with these slicers and narrow down to specific demographics of my choosing.
 <br/>
+
 ![bike_sales_dashboard](https://github.com/user-attachments/assets/eaafb888-9c32-4fac-aec3-355ec9b29fe6)
+
 <br/>
