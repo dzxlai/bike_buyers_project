@@ -254,5 +254,6 @@ To conclude, I decided to compile my plots together to form a dashboard. A dashb
 Along with my dashboard, I fitted the plots with interactive slicers. Slicers provide buttons, which we can use to filter that plots at a click. For this dashboard, I have linked all the slicers and charts together, so that when I apply a filter, all charts will adjust accordingly together.
 
 Using other features from our dataset, such as marital status, education, and region, I am able to play around with these slicers and narrow down to specific demographics of my choosing.
+<br/>
 ![bike_sales_dashboard](https://github.com/user-attachments/assets/eaafb888-9c32-4fac-aec3-355ec9b29fe6)
 <br/>
