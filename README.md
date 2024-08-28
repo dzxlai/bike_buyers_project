@@ -249,42 +249,10 @@ Ultimately, these insights suggest that distance is a significant factor in the 
 
 <h2>Dashboard</h2>
 
-dashboard with interactive slicers
+To conclude, I decided to compile my plots together to form a dashboard. A dashboard helps to visulaise the summary of analysis', highlighting key metrics/trends and findings. Using one allows you to gain quick insights and make informed decisions.
 
-now we have information on these people
-we can filter and narrow down by certain demographics
-and all charts adjust accordingly together
+Along with my dashboard, I fitted the plots with interactive slicers. Slicers provide buttons, which we can use to filter that plots at a click. For this dashboard, I have linked all the slicers and charts together, so that when I apply a filter, all charts will adjust accordingly together.
 
-using the data visualisations to allow with the slicing allows fitler narrow down demogprahics, identify key information at a glance
-
+Using other features from our dataset, such as marital status, education, and region, I am able to play around with these slicers and narrow down to specific demographics of my choosing.
 ![bike_sales_dashboard](https://github.com/user-attachments/assets/eaafb888-9c32-4fac-aec3-355ec9b29fe6)
-
-
-
-
-
-
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
